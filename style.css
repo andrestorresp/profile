@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body{
+  background-color: #A69580;
+}
+.container{
+  text-align: center;
+  width: 600px;   /* This sets the width */
+  margin: 0 auto;
+}
+.card{
+  margin: 20px;
+  background-color: #394009;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: inset 5px 10px 23px 0px rgba(0,0,0,0.75);
+}
+h1, h3{
+  font-family: protest riot;
+  font-weight: 400;
+  color: #D9D1C7;
+  padding: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+a{
+  font-family: poppins;
+  text-shadow: 1px 1px 2px black;
+}
+p{
+  font-family: montserrat;
+  font-weight: 400;
+  padding: 30px;
+  color: #EBEEF2;
+}
+li{
+  display:  inline;
+
+}
+ul{
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFFEC;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  margin-left: 10px;
+}
+a:hover{
+  color: #F1E4C3;
+}
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+@media (max-width: 720px) {
+  h1{
+    font-size: 50px;
+  }
+}
